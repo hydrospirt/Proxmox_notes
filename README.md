@@ -10,9 +10,13 @@ apt update && apt dist-upgrade
 
 ```bash
 apt install xfce4 chromium lightdm
+```
 Перед запуском x-windows создайте обычного пользователя
+```bash
 adduser новое имя пользователя
+```
 Запустите диспетчер входа в систему:
+```bash
 systemctl start lightdm
 ```
 
